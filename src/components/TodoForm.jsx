@@ -13,15 +13,15 @@ const TodoForm = ({ addTodo }) => {
 
   return (
     <div>
-      <form className="input-group mb-3" onSubmit={handleSubmit}>
+      <form className="input-group mb-3 gap-2" onSubmit={handleSubmit}>
         <input
           type="text"
-          className="form-control"
+          className="form-control rounded"
           placeholder="Enter todo"
           value={todo}
           onChange={(e) => setTodo(e.target.value)}
         />
-        <button className="btn btn-success" type="submit">
+        <button className="btn btn-success rounded" type="submit">
           <FaPlus />
         </button>
       </form>

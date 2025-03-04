@@ -32,7 +32,9 @@ const App = () => {
       className="container w-50 mt-5 shadow-sm p-4"
       style={{ background: "#ECEBDE" }}
     >
-      <h2 className="text-center">Todo List App</h2>
+      <hr />
+      <h2 className="text-center text-success">TODO APP</h2>
+      <hr />
       <TodoForm addTodo={addTodo} />
       <TodoList
         todos={todos}
